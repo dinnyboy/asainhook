@@ -260,7 +260,7 @@ o:Connect(game.Players.PlayerAdded, o.EspAddPlayer)
 o:Connect(game.Players.PlayerRemoving, o.EspRemovePlayer)
 function k:New(_)
     _ = _ or {}
-    local a0 = _.name or _.Name or "bbot ui"
+    local a0 = _.name or _.Name or ""
     local a1 = _.accent1 or _.Accent1 or Color3.fromRGB(127, 72, 163)
     local a2 = _.accent2 or _.Accent2 or Color3.fromRGB(87, 32, 123)
     local a3 = {
